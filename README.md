@@ -1,228 +1,395 @@
-# 🛡️ Surokkha AI
+<div align="center">
 
-### AI-Powered Healthcare Navigation & Emergency Assistance Platform for Bangladesh
+# 🛡️ SUROKKHA AI
 
-**Surokkha AI** is an intelligent healthcare assistance platform designed to help people in Bangladesh navigate healthcare services, understand health-related information, and access emergency resources more efficiently.
+### **AI-Powered Healthcare Navigation & Emergency Assistance Platform for Bangladesh**
 
-It combines **Generative AI, healthcare facility data, emergency services, and safety-focused AI guidance** into a unified platform.
+**Intelligent healthcare guidance • Emergency navigation • Healthcare discovery • Responsible AI**
 
-<p align="center">
+<br>
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Surokkha%20AI-red?style=for-the-badge)](https://surokkha-ai.netlify.app/)
-[![GitHub](https://img.shields.io/badge/Source%20Code-GitHub-black?style=for-the-badge\&logo=github)](https://github.com/abdullah-sany/Surokkha-AI)
+<a href="https://surokkha-ai.netlify.app/">
+  <img src="https://img.shields.io/badge/🚀%20LIVE%20DEMO-SUROKKHA%20AI-E63946?style=for-the-badge" alt="Live Demo">
+</a>
+<a href="https://github.com/abdullah-sany/Surokkha-AI">
+  <img src="https://img.shields.io/badge/💻%20SOURCE-GITHUB-111111?style=for-the-badge&logo=github" alt="GitHub">
+</a>
 
-</p>
+<br><br>
 
----
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white">
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=google&logoColor=white">
+<img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
 
-## 🎯 The Problem
+<br><br>
 
-Finding the right healthcare service during an urgent situation can be difficult.
+**🇧🇩 Built for Bangladesh • 🤖 Powered by AI • 🛡️ Designed with Safety in Mind**
 
-People may struggle to:
-
-* Find nearby healthcare facilities
-* Identify appropriate emergency resources
-* Locate ambulance services
-* Understand health-related information
-* Determine when a situation may require urgent professional attention
-* Navigate fragmented healthcare information
-
-For a country like Bangladesh, where healthcare resources and information can be distributed across many different sources, a simple and intelligent healthcare navigation layer can be valuable.
-
----
-
-## 💡 Our Solution
-
-**Surokkha AI** brings multiple healthcare assistance capabilities together in one platform.
-
-The system is designed to:
-
-* Provide AI-powered healthcare guidance
-* Help users discover healthcare facilities
-* Provide emergency healthcare information
-* Search ambulance services
-* Analyze uploaded prescriptions and extract useful information
-* Identify potentially urgent situations
-* Escalate users toward professional/emergency assistance when appropriate
-
-> **Surokkha AI is an assistance and navigation system — not a replacement for doctors or emergency medical professionals.**
+</div>
 
 ---
 
-# ✨ Key Features
+## 🌟 What is Surokkha AI?
 
-## 🤖 AI Specialist Guide
+**Surokkha AI** is a healthcare technology platform designed to make healthcare information and emergency resources easier to discover and understand.
 
-An AI-powered healthcare assistance interface that allows users to interact with the system using multiple input methods.
+Instead of forcing users to navigate multiple disconnected services, Surokkha AI brings together:
 
-### Capabilities
+> 🤖 **AI Healthcare Assistance**
+> 🏥 **Healthcare Facility Discovery**
+> 🚑 **Emergency & Ambulance Navigation**
+> 💊 **Prescription Understanding**
+> 🚨 **Safety-Oriented Escalation**
+
+The platform combines **Generative AI + structured healthcare data + emergency navigation** into a unified experience.
+
+---
+
+# 🎯 The Problem
+
+Healthcare information can be difficult to navigate—especially during stressful or urgent situations.
+
+Users may need to quickly answer questions such as:
+
+* Where is the nearest suitable healthcare facility?
+* What emergency resources are available?
+* How can I find an ambulance?
+* What does this prescription say?
+* Is a situation potentially urgent?
+* When should I seek professional medical help?
+
+Surokkha AI is designed to provide a **single, accessible interface for healthcare navigation and AI-assisted information**.
+
+---
+
+# 💡 Our Approach
+
+```text
+                    USER
+                     │
+                     ▼
+            ┌─────────────────┐
+            │   SUROKKHA AI   │
+            └────────┬────────┘
+                     │
+       ┌─────────────┼─────────────┐
+       │             │             │
+       ▼             ▼             ▼
+   🤖 AI Guide   🚨 Emergency   💊 Prescription
+       │             │             │
+       ▼             ▼             ▼
+   Gemini AI    Healthcare DB   Vision / OCR
+       │             │             │
+       └─────────────┼─────────────┘
+                     ▼
+             🛡️ Safety Layer
+                     │
+                     ▼
+          Professional Assistance
+```
+
+---
+
+# ✨ Core Features
+
+<table>
+<tr>
+<td width="50%">
+
+## 🤖 AI Specialist
+
+AI-assisted healthcare information through a conversational interface.
+
+**Features**
 
 * 💬 Text input
 * 🎙️ Voice input
-* 🖼️ Image-based input
-* 🧠 Gemini AI integration
-* ⚠️ Safety-oriented response classification
-* 🚨 Emergency escalation guidance
+* 🖼️ Image input
+* 🧠 Gemini AI
+* ⚠️ Safety classification
+* 🚨 Emergency escalation
 
-The system is designed to provide general informational assistance while avoiding unsupported medical certainty.
+</td>
 
----
+<td width="50%">
+
+## 🚨 Emergency Hub
+
+Quick access to healthcare and emergency resources.
+
+**Features**
+
+* 🏥 Find hospitals
+* 🚑 Find ambulances
+* 📞 Emergency contacts
+* 📍 Nearby help
+* 🔎 Facility filtering
+* 🗺️ Healthcare navigation
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
 
 ## 💊 Prescription Analyzer
 
-Users can upload prescription images for AI-assisted interpretation.
+AI-assisted extraction and explanation of prescription information.
 
-### Workflow
+**Workflow**
 
-```text
-Prescription Image
-       ↓
-Image Processing
-       ↓
-Gemini Vision / OCR
-       ↓
-Medicine Extraction
-       ↓
-Structured Information
-       ↓
-Safe Explanation
-```
+`Image → Vision/OCR → Medicine Extraction → Explanation`
 
-The analyzer can help users understand extracted medicine information in a simpler format.
+Designed to help users understand prescription information more clearly.
 
-> Prescription analysis is informational and does not replace a qualified pharmacist or physician.
+</td>
 
----
+<td width="50%">
 
-# 🚨 Emergency & Healthcare System
+## 🏥 Healthcare Directory
 
-Surokkha AI includes a dedicated emergency healthcare navigation system.
+Structured healthcare facility discovery across Bangladesh.
 
-## 🏥 Emergency Hub
-
-Provides access to:
-
-* Find Hospital
-* Find Ambulance
-* Emergency Contacts
-* Nearby Help
-
----
-
-## 🏥 Healthcare Facility Search
-
-Users can search healthcare facilities using filters such as:
+**Filters**
 
 * Division
 * District
-* Facility Type
+* Facility type
 * Ownership
-* Distance / location-based sorting
+* Distance / location
 
-The platform is designed to make healthcare facility discovery faster and easier.
-
----
-
-## 🚑 Ambulance Directory
-
-The ambulance directory provides structured ambulance information to help users discover available ambulance services.
-
-The system is designed to support location-based healthcare and emergency navigation across Bangladesh.
+</td>
+</tr>
+</table>
 
 ---
 
-## 📞 Emergency Contacts
+# 🛡️ Responsible AI & Safety
 
-Important emergency contact information can be presented through the emergency assistance interface so users can quickly identify appropriate services.
+Healthcare AI requires a different level of caution.
 
----
+Surokkha AI follows a **safety-first assistance approach**.
 
-# 🧠 AI Safety Approach
+### The system is designed to:
 
-Healthcare AI requires additional safety considerations.
-
-Surokkha AI is designed around a **safety-first assistance model**.
-
-The AI should:
-
-* Provide general health information
+* Provide general healthcare information
 * Highlight potential warning signs
-* Encourage professional medical assistance when appropriate
-* Escalate potentially urgent situations
-* Avoid presenting uncertain information as medical fact
+* Encourage professional medical assistance
+* Identify potentially urgent situations
+* Provide emergency escalation guidance
 
-The AI should **not**:
+### The system is NOT designed to:
 
-* Diagnose diseases
-* Replace doctors
-* Prescribe medication
-* Claim medical certainty
-* Encourage users to ignore emergency symptoms
+* ❌ Diagnose diseases
+* ❌ Replace doctors
+* ❌ Prescribe medication
+* ❌ Claim medical certainty
+* ❌ Tell users to ignore emergency symptoms
 
-For serious or emergency symptoms, users should seek qualified medical or emergency assistance immediately.
+> **Surokkha AI is an informational and navigation tool, not a replacement for qualified medical professionals.**
+
+For serious or emergency symptoms, users should seek appropriate professional or emergency medical assistance immediately.
 
 ---
 
 # 🏗️ System Architecture
 
 ```text
-                         ┌──────────────────────┐
-                         │      SUROKKHA AI     │
-                         └──────────┬───────────┘
-                                    │
-              ┌─────────────────────┼─────────────────────┐
-              │                     │                     │
-              ▼                     ▼                     ▼
-      ┌───────────────┐     ┌───────────────┐     ┌───────────────┐
-      │  AI Specialist│     │ Emergency Hub │     │  Prescription │
-      │               │     │               │     │    Analyzer   │
-      └───────┬───────┘     └───────┬───────┘     └───────┬───────┘
-              │                     │                     │
-              ▼                     ▼                     ▼
-        ┌───────────┐        ┌────────────┐        ┌─────────────┐
-        │ Gemini AI │        │ PostgreSQL │        │ Gemini Vision│
-        └───────────┘        └────────────┘        └─────────────┘
-              │                     │                     │
-              └─────────────────────┼─────────────────────┘
-                                    ▼
-                         ┌─────────────────────┐
-                         │ Safety & Escalation │
-                         └─────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│                         SUROKKHA AI                          │
+└───────────────────────────────┬──────────────────────────────┘
+                                │
+                         React Frontend
+                                │
+               ┌────────────────┼────────────────┐
+               │                │                │
+               ▼                ▼                ▼
+        AI Specialist     Emergency Hub    Prescription
+               │                │                │
+               │                │                │
+               ▼                ▼                ▼
+         Gemini API        Backend API      Gemini Vision
+               │                │                │
+               │                ▼                │
+               │           PostgreSQL            │
+               │                │                │
+               └────────────────┼────────────────┘
+                                ▼
+                       Safety / Escalation
+                                │
+                                ▼
+                     Professional Assistance
+```
+
+---
+
+# 🧠 AI Architecture
+
+```text
+User Input
+    │
+    ├── Text
+    ├── Voice
+    └── Image
+         │
+         ▼
+   Input Processing
+         │
+         ▼
+     Gemini AI
+         │
+         ▼
+ Safety Classification
+         │
+    ┌────┴────┐
+    │         │
+ Normal    Potentially
+ Request    Urgent
+    │         │
+    ▼         ▼
+ Guidance   Escalation
+    │         │
+    └────┬────┘
+         ▼
+ Professional Care
+```
+
+---
+
+# 🏥 Emergency Healthcare Architecture
+
+```text
+                    Emergency Hub
+                         │
+       ┌─────────────────┼─────────────────┐
+       │                 │                 │
+       ▼                 ▼                 ▼
+    Hospitals         Ambulances       Emergency
+                                           Contacts
+       │                 │                 │
+       └─────────────────┼─────────────────┘
+                         ▼
+                    Search & Filter
+                         │
+                         ▼
+                  Healthcare Results
+```
+
+---
+
+# 🗄️ Data Architecture
+
+Surokkha AI uses **PostgreSQL** for structured healthcare and emergency data.
+
+### Core entities
+
+```text
+Healthcare Facilities
+        │
+        ├── Division
+        ├── District
+        ├── Upazila
+        ├── Facility Type
+        ├── Ownership
+        └── Facility Information
+
+Ambulances
+        │
+        ├── Provider
+        ├── Location
+        └── Contact Information
+
+Emergency Contacts
+        │
+        ├── Service
+        └── Contact Information
+```
+
+The database architecture is designed so additional healthcare data sources can be integrated as the platform grows.
+
+---
+
+# 🖥️ Product Showcase
+
+> Replace the image paths below with your actual screenshots.
+
+## 🏠 Main Experience
+
+<p align="center">
+  <img src="docs/screenshots/home.png" width="90%" alt="Surokkha AI Home">
+</p>
+
+---
+
+## 🤖 AI Specialist
+
+<p align="center">
+  <img src="docs/screenshots/ai-specialist.png" width="90%" alt="AI Specialist">
+</p>
+
+---
+
+## 🚨 Emergency Healthcare System
+
+<p align="center">
+  <img src="docs/screenshots/emergency.png" width="90%" alt="Emergency Healthcare System">
+</p>
+
+---
+
+## 💊 Prescription Analyzer
+
+<p align="center">
+  <img src="docs/screenshots/prescription.png" width="90%" alt="Prescription Analyzer">
+</p>
+
+---
+
+## 🚑 Ambulance Directory
+
+<p align="center">
+  <img src="docs/screenshots/ambulance.png" width="90%" alt="Ambulance Directory">
+</p>
+
+---
+
+# 🎥 Product Demonstration
+
+### See Surokkha AI in action
+
+**Demo Video:** Coming soon
+
+Recommended demo flow:
+
+```text
+01 → Open Surokkha AI
+02 → Ask a healthcare question
+03 → AI processes the request
+04 → Safety classification
+05 → Healthcare guidance
+06 → Emergency escalation when appropriate
+07 → Find healthcare facilities / ambulance
 ```
 
 ---
 
 # 🛠️ Technology Stack
 
-### Frontend
-
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
-* Lucide Icons
-
-### Backend
-
-* Node.js
-* Express
-* TypeScript
-
-### AI
-
-* Google Gemini
-* Gemini Vision
-* AI-assisted safety classification
-
-### Database
-
-* PostgreSQL
-
-### Deployment
-
-* Netlify
-* Render
+| Layer               | Technology          |
+| ------------------- | ------------------- |
+| Frontend            | React + TypeScript  |
+| Build Tool          | Vite                |
+| Styling             | Tailwind CSS        |
+| Icons               | Lucide React        |
+| Backend             | Node.js + Express   |
+| AI                  | Google Gemini       |
+| Vision              | Gemini Vision / OCR |
+| Database            | PostgreSQL          |
+| Frontend Deployment | Netlify             |
+| Backend Deployment  | Render              |
 
 ---
 
@@ -242,27 +409,41 @@ Surokkha-AI/
 ├── public/
 │
 ├── server.ts
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
+│
+├── docs/
+│   └── screenshots/
+│
 ├── .env.example
 ├── .gitignore
+├── LICENSE
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
 └── README.md
 ```
-
-> Project structure may evolve as additional Surokkha AI modules are integrated.
 
 ---
 
 # 🚀 Getting Started
 
-## 1. Clone the repository
+## Prerequisites
+
+Make sure you have installed:
+
+* Node.js
+* npm
+* PostgreSQL
+* Git
+
+---
+
+## 1. Clone
 
 ```bash
 git clone https://github.com/abdullah-sany/Surokkha-AI.git
 ```
 
-## 2. Navigate into the project
+## 2. Enter the project
 
 ```bash
 cd Surokkha-AI
@@ -276,27 +457,31 @@ npm install
 
 ## 4. Configure environment variables
 
-Create a `.env` file:
+Create a local `.env` file:
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
-Never commit your real API keys to GitHub.
+Never commit real API keys to GitHub.
 
-## 5. Start the development server
+## 5. Start development
 
 ```bash
 npm run dev
 ```
 
-The application should then be available through the local development URL shown in your terminal.
+Open the local URL provided by Vite in your browser.
 
 ---
 
 # 🔐 Environment Variables
 
-Create a `.env` file locally.
+Create:
+
+```text
+.env
+```
 
 Example:
 
@@ -304,144 +489,138 @@ Example:
 GEMINI_API_KEY=your_api_key_here
 ```
 
-For security:
+For public repositories:
 
 ```text
 .env
 .env.local
 ```
 
-should never be committed to the repository.
+must remain excluded through `.gitignore`.
 
-A `.env.example` file is provided so developers can understand which variables are required without exposing secrets.
+A safe `.env.example` should contain placeholders only:
 
----
-
-# 📸 Screenshots
-
-> Product screenshots will be added here to showcase the main interfaces.
-
-### 🏠 Main Dashboard
-
-*Add screenshot here*
-
-### 🤖 AI Specialist
-
-*Add screenshot here*
-
-### 🚨 Emergency Healthcare System
-
-*Add screenshot here*
-
-### 💊 Prescription Analyzer
-
-*Add screenshot here*
-
-### 🚑 Ambulance Directory
-
-*Add screenshot here*
-
----
-
-# 🎥 Product Demo
-
-A short demonstration video will showcase:
-
-```text
-User
- ↓
-Healthcare Question
- ↓
-AI Specialist
- ↓
-Safety Classification
- ↓
-Healthcare / Emergency Guidance
- ↓
-Professional Assistance
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-**Demo:** Coming soon
+---
+
+# 🌐 Live Deployments
+
+<div align="center">
+
+### 🛡️ Surokkha AI
+
+**Main Platform**
+
+https://surokkha-ai.netlify.app/
+
+<br>
+
+### 🚨 Surokkha AI — Emergency System
+
+**Emergency Healthcare Module**
+
+https://surokkha-ai-em.onrender.com/
+
+<br>
+
+### 🩸 RoktoSheba AI
+
+**Blood Donation Platform**
+
+https://roktosheba-ai-blood-donation.netlify.app/
+
+</div>
 
 ---
 
 # 🗺️ Roadmap
 
-## ✅ Completed
+### ✅ Implemented
 
-* [x] Surokkha AI core interface
+* [x] Surokkha AI core platform
 * [x] AI Specialist interface
 * [x] Gemini AI integration
 * [x] Emergency Healthcare System
 * [x] Healthcare facility search
-* [x] District & division filtering
+* [x] Division & district filtering
 * [x] Ambulance directory
 * [x] Emergency contacts
-* [x] PostgreSQL healthcare data integration
+* [x] PostgreSQL healthcare database
+* [x] Production deployments
 
-## 🚧 In Progress
+### 🚧 Improving
 
-* [ ] Prescription Analyzer improvements
-* [ ] Advanced AI safety classification
-* [ ] Improved Bengali language support
-* [ ] Expanded Bangladesh healthcare dataset
-* [ ] Better location-based emergency assistance
+* [ ] Prescription Analyzer refinement
+* [ ] Expanded healthcare dataset
+* [ ] Improved Bengali language experience
+* [ ] Advanced safety classification
+* [ ] Improved location-based discovery
 
-## 🔮 Future Plans
+### 🔮 Future
 
 * [ ] Voice-first healthcare assistant
 * [ ] Mobile application
-* [ ] More comprehensive healthcare facility coverage
 * [ ] Real-time emergency service integrations
-* [ ] Advanced healthcare analytics
+* [ ] Larger national healthcare database
 * [ ] Multilingual healthcare assistance
+* [ ] Healthcare analytics
+* [ ] Offline / low-connectivity support
 
 ---
 
-# 🌐 Live Projects
+# 📊 Vision
 
-### 🛡️ Surokkha AI
+Surokkha AI aims to evolve from a healthcare information interface into a broader **digital healthcare navigation ecosystem for Bangladesh**.
 
-https://surokkha-ai.netlify.app/
+The long-term vision includes:
 
-### 🚨 Surokkha AI — Emergency Healthcare System
-
-https://surokkha-ai-em.onrender.com/
-
-### 🩸 RoktoSheba AI
-
-https://roktosheba-ai-blood-donation.netlify.app/
-
-RoktoSheba AI is a related healthcare initiative focused on blood donation and donor discovery.
+```text
+                 SUROKKHA ECOSYSTEM
+                         │
+        ┌────────────────┼────────────────┐
+        │                │                │
+        ▼                ▼                ▼
+   AI Healthcare    Emergency Care   Healthcare
+     Assistant       Navigation       Discovery
+        │                │                │
+        ├────────────────┼────────────────┤
+                         │
+                         ▼
+                Accessible Healthcare
+```
 
 ---
 
-# 🛡️ Privacy & Responsible AI
+# 🌱 Why It Matters
 
-Surokkha AI is designed with responsible healthcare assistance in mind.
+Technology alone cannot solve every healthcare challenge.
 
-The platform aims to minimize unnecessary collection of sensitive user information and should not be considered a medical diagnosis or treatment system.
+But better access to information, faster navigation, responsible AI assistance, and easier discovery of emergency resources can help reduce friction between **people and healthcare services**.
 
-Users should verify important medical information with qualified healthcare professionals.
-
-For emergencies, users should contact appropriate emergency services immediately.
+Surokkha AI is an attempt to build that bridge.
 
 ---
 
 # 👨‍💻 Developer
 
+<div align="center">
+
 ## MD Abdullah Sany
 
-AI & Software Developer
+**AI & Software Developer**
 
-Focused on building practical AI-powered solutions for healthcare, automation, and real-world problems.
+Building practical AI-powered solutions for real-world problems.
 
-### Projects
+<br>
 
-* 🛡️ Surokkha AI
-* 🩸 RoktoSheba AI
-* 🎨 BeautiArt AI
-* 🐍 Python Projects
+<a href="https://github.com/abdullah-sany">
+  <img src="https://img.shields.io/badge/GitHub-abdullah--sany-181717?style=for-the-badge&logo=github">
+</a>
+
+</div>
 
 ---
 
@@ -449,14 +628,18 @@ Focused on building practical AI-powered solutions for healthcare, automation, a
 
 This project is currently maintained as a personal/educational innovation project.
 
-License information will be added as the project moves toward public open-source distribution.
+License information will be added according to the project's distribution and open-source requirements.
 
 ---
 
-<p align="center">
+<div align="center">
 
-### 🛡️ Surokkha AI
+# 🛡️ Surokkha AI
 
-**Technology for safer and more accessible healthcare navigation.**
+### **Technology for safer and more accessible healthcare navigation.**
 
-</p>
+<br>
+
+**🇧🇩 Made for Bangladesh**
+
+</div>
